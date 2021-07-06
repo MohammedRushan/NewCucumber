@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validating username and password with valid and Invalid Combination",
+        "description": "",
+        "id": "validating-home-page-of-facebook;validating-username-and-password-with-valid-and-invalid-combination",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7874296300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on Facebook Page #url --\u003ePredefined",
+            "match": {
+              "location": "Stepdef.user_is_on_Facebook_Page_url_Predefined()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367295100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user need to enter Username and Password",
+            "match": {
+              "location": "Stepdef.user_need_to_enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121455900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user need to click Login Button",
+            "match": {
+              "location": "Stepdef.user_need_to_click_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user need to validate",
+            "match": {
+              "location": "Stepdef.user_need_to_validate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating home page of facebook",
+    "description": "",
+    "id": "validating-home-page-of-facebook",
+    "keyword": "Feature",
+    "uri": "src/test/resources/facebook.feature",
+    "tags": []
+  }
+]
